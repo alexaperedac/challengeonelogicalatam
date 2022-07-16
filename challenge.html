@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+
+<html lang="es">
+
+    <head> 
+
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <title> Encriptador </title>
+        <link rel="stylesheet" href="challenge.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <header>
+        <h1><img src ="Screen Shot 2022-06-16 at 19.11.07.png"></h1>
+    </header>
+
+    <body>
+        <section id = "tarjetan1"> </section>
+            <textarea id="mensaje" required placeholder="Ingrese el texto aquí"></textarea>
+        </section>
+
+        <p class = "warning"> &#33 Sólo letras minúsculas y sin acentos</p>
+
+        <main>
+            <button type = "button" id="boton-encriptar"><p id="pEncriptar">Encriptar</p></button>
+            <button type = "button" id="boton-desencriptar"><p id="pDesencriptar">Desencriptar</p></button>
+        </main>
+       
+        <section>
+            <div id="div1">
+                <h2>Ningún mensaje fue encontrado</h2>
+            </div>      
+
+            <div id="div2">
+                <textarea type = "text" id = "h2" cols = "20" rows = "10" placeholder = "Ningún mensaje"></textarea> 
+            </div>
+            
+        </section>
+    
+
+
+    </body>
+
+</html>
+
+<script src = "challenge.js"></script>
+<script src = "validar.js"></script>
